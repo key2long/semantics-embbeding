@@ -1,0 +1,23 @@
+# ####################### fb15k-237 ######################################################
+Denoise_Net:
+  name: CEDenoiser 
+  layers: 3
+  hidden_dim: 1600
+
+# ####################### wn18rr ######################################################
+Denoise_Net:
+  name: CEDenoiser 
+  layers: 2
+  hidden_dim: 200
+
+# ####################### umls ######################################################
+Denoise_Net:
+  name: CEDenoiser 
+  layers: 2
+  hidden_dim: 400
+
+# # ####################### kinship ######################################################
+Denoise_Net:
+  name: CEDenoiser 
+  layers: 2
+  hidden_dim: 200
